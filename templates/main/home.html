@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+home
+{% endblock title %}
+
+{% block content %}
+<br> <br>
+<div class="center">
+    <img src="media/logo.png" height="300vh" >
+<div>
+<br> <br>
+<div class="item">
+    <form action="" method="GET">
+        <div class="ui action left icon input">
+            <input class="prompt form-control browser" type="text" name='q' id="id_q" placeholder="Navigate">
+                <i class="search icon"></i>
+            <button type='submit' class="ui button">No Ledge</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock content %}
+
+{% block scripts %}
+<script>
+$(document).ready(function(){
+    console.log('working')
+})
+</script>
+{% endblock scripts %}
+
+

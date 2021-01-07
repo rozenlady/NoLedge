@@ -1,0 +1,88 @@
+body {
+    background: #b7b7b7 !important;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    height: 30vh;
+    border:none !important;
+ }
+
+.browser {
+    width: 600px;
+    padding:20px;
+}
+
+.bar{
+    width: 450px;
+    padding:20px;
+}
+
+
+input{
+    font-size: 22px;
+    line-height: 8;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 22px;
+    line-height: 8;
+}
+
+.nav {
+    border-radius: 0px !important;
+    padding: 10px 0 10px 0 !important;
+    background-color: #eaecf1 !important; 
+}
+
+.mb-7 {
+    margin-bottom: 7px !important;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.mymodal {
+    height: 300px !important;
+    top: 200px !important;
+    font-size: 20px !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.w-big {
+    width: 200px !important;
+}
+
+.bwhite-lg {
+    background-color: transparent !important;
+}
+
+.bwhite-sm {
+    background-color: transparent !important;
+    width: 10px !important;
+}
+
+.comment-box {
+    display: none;
+}
+
+.ui.menu .item:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(34,36,38,.1);
+}
